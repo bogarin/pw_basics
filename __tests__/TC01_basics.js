@@ -15,7 +15,7 @@ describe('Post', () => {
 
     await page.fill('input[type = "email"]', 'qacamp.acad@gmail.com')
     await page.press('input[type = "email"]', 'Tab')
-    await page.type('input[type = "password"]', 'test12345')
+    await page.type('input[type = "password"]', 'test1234')
 
     await Promise.all([
       page.waitForNavigation(),
